@@ -1,0 +1,177 @@
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fdfdfd;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-inline: none;
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .app {
+    min-height: 100vh;
+    background-color: #fdfdfd;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 14px;
+    margin-top: 0;
+  }
+
+  header > .title {
+    width: 100%;
+    gap: 8px;
+  }
+
+  header .title .logo-text h1 {
+    font-size: 1.125rem;
+  }
+
+  header .title .logo-text span {
+    font-size: 0.6875rem;
+  }
+
+  .logo {
+    width: 34px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    gap: 14px;
+    box-sizing: border-box;
+  }
+
+  .balanceCard {
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-left {
+    flex: none;
+    padding: 0;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .hero-right {
+    flex: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 80%;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .hero-title {
+    gap: 8px;
+    align-items: center;
+  }
+
+  .hero-title h2 {
+    font-size: 0.95rem;
+  }
+
+  .hero-balance {
+    gap: 6px;
+    margin: 0 auto;
+  }
+
+  .hero-balance h1 {
+    font-size: 2.9rem;
+    line-height: 1.1;
+  }
+
+  .hero-balance-amount {
+    font-size: 1.8rem;
+  }
+
+  .balance-summary {
+    font-size: 0.875rem;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .balance-summary .total-income-expense {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .summary-img {
+    width: 40px;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+  .balance-divider {
+    margin: 14px 0;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin: 0.5rem 0;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .total-income-expense h3 {
+    font-size: 0.875rem;
+  }
+
+  .total-income-expense h2 {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    padding: 10px 12px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .balanceCard {
+    padding: 12px;
+  }
+
+  .hero-title h2 {
+    font-size: 0.9rem;
+  }
+
+  .hero-balance h1 {
+    font-size: 2.6rem;
+    margin: 0;
+  }
+
+  .hero-balance-amount {
+    font-size: 1.6rem;
+  }
+}

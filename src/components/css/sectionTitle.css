@@ -1,0 +1,14 @@
+.Sectiontitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+ .Sectiontitle .image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.Sectiontitle .image img{
+    width: 100%;
+}

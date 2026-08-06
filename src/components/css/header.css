@@ -1,0 +1,41 @@
+.logo{
+    width: 40px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: var(--accent-color);
+    border-bottom: 1px solid var(--border);
+}
+
+header > .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .title .logo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    gap: 2px;  
+}
+
+
+
+header > .title .logo-text h1{
+    font-size: 1.25rem;
+    color: var(--text-h);
+    margin: 0;
+    font-weight: 600;
+}
+
+header .title .logo-text span{
+    color: var(--text);
+    font-size: 0.75rem;
+    margin: -0.5rem 0;
+}

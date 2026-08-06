@@ -1,0 +1,41 @@
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.transaction-header .Sectiontitle {
+    margin: 0;
+    flex: 1;
+}
+
+.transaction-header select {
+    min-width: 140px;
+    padding: 8px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+.transaction-header select:focus {
+    border-color: #8bc34a;
+    box-shadow: 0 0 0 3px rgba(139, 195, 74, 0.15);
+}
+
+.transaction-list {
+    border-radius: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .04), 0 18px 35px rgba(0, 0, 0, .05), 0 0 45px rgba(181, 223, 73, .15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
