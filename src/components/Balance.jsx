@@ -2,6 +2,7 @@ import React from 'react'
 import balanceImg from '../assets/balance-card-img.png'
 import heroImg from '../assets/hero-image.png'
 import SectionTitle from './SectionTitle'
+import heroImgDark from '../assets/hero-image.png'
 function Balance({amount}) {
     return (
         <div className="hero">
